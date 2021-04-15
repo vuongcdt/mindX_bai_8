@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BaiTap8</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="clock">
+      <span class="day">
+        <div class="clock--hours__chuto" id="days">FR</div>
+        <div class="chuNho">days</div>
+      </span>
+      <span class="clock--hours">
+        <div class="clock--hours__chuto" id="hours">11</div>
+        <div class="chuNho">hours</div>
+      </span>
+      <span class="minutes">
+        <div class="clock--hours__chuto" id="minutes">55</div>
+        <div class="chuNho">minutes</div>
+      </span>
+      <span class="seconds">
+        <div class="clock--hours__chuto" id="seconds">22</div>
+        <div class="chuNho">seconds</div>
+      </span>
+    </div>
+    <div class="button">
+      <span class="button--up" onclick="clickup()">+</span>
+      <span class="number" id="ketqua">0</span>
+      <span class="button--down" onclick="clickdown()">-</span>
+    </div>
+    <!-- <div class="time">
+      <span class="">
+        <input type="number" id="myInput" value="" />
+      </span>
+      <span class="">
+        <button onclick=" buttonStart()">Start</button>
+      </span>
+      <span class="">
+        <button onclick="buttonStop()">Stop</button>
+      </span>
+      <div class="showTime" id="time">0</div>
+    </div> -->
+
+    <div class="bai3">
+      <div class="bai3--text">
+        <div class="bai3--quoteText" id="quoteText">We can only learn to love by loving.</div>
+        <div class="bai3--quoteAuthor" id="quoteAuthor">Iris Murdoch</div>
+      </div>
+      <button class="bai3--button" onclick="reset()">Reset</button>
+    </div>
+    <script src="data.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
